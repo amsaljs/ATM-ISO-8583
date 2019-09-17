@@ -1,0 +1,215 @@
+2019-09-15 18:02:59,932 INFO com.bank.atm.client.console.AtmClient [main] Application is running
+2019-09-15 18:02:59,944 INFO com.bank.atm.client.console.AtmClient [main] Account Number : 12345
+2019-09-15 18:02:59,945 INFO com.bank.atm.client.console.AtmClient [main] Pin Number : 121212
+2019-09-15 18:03:03,651 INFO com.bank.atm.AtmApplication [restartedMain] Starting AtmApplication on Amsal with PID 4629 (/Users/amsaljayadisihombing/Documents/Spring/atm/target/classes started by amsaljayadisihombing in /Users/amsaljayadisihombing/Documents/Spring/atm)
+2019-09-15 18:03:03,652 DEBUG com.bank.atm.AtmApplication [restartedMain] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-15 18:03:03,653 INFO com.bank.atm.AtmApplication [restartedMain] The following profiles are active: prod
+2019-09-15 18:03:06,659 INFO com.bank.atm.AtmApplication [restartedMain] Started AtmApplication in 3.256 seconds (JVM running for 33.964)
+2019-09-15 19:26:26,673 INFO com.bank.atm.AtmApplication [restartedMain] Starting AtmApplication on Amsal with PID 4657 (/Users/amsaljayadisihombing/Documents/Spring/atm/target/classes started by amsaljayadisihombing in /Users/amsaljayadisihombing/Documents/Spring/atm)
+2019-09-15 19:26:26,679 DEBUG com.bank.atm.AtmApplication [restartedMain] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-15 19:26:26,679 INFO com.bank.atm.AtmApplication [restartedMain] The following profiles are active: prod
+2019-09-15 19:26:31,441 INFO com.bank.atm.AtmApplication [restartedMain] Started AtmApplication in 5.259 seconds (JVM running for 33.175)
+2019-09-15 19:28:33,741 INFO com.bank.atm.client.console.AtmClient [main] Application is running
+2019-09-15 19:28:33,754 INFO com.bank.atm.client.console.AtmClient [main] Account Number : 12345
+2019-09-15 19:28:33,755 INFO com.bank.atm.client.console.AtmClient [main] Pin Number : 121212
+2019-09-15 19:28:36,143 INFO com.bank.atm.client.console.AtmClient [main] Doing Cashwithdrawal
+2019-09-15 19:28:38,931 INFO com.bank.atm.client.console.AtmClient [main] Nominal : 50000
+2019-09-15 19:28:39,007 INFO com.bank.atm.client.console.AtmClient [main] ISO Message : 0200F23A400188A090040000000004000000051234501000000000005000009151928380000000728380915091500001100000000000110000000000000000000000000000000000000000000000000000000000000000000000000000000000001212120010010
+2019-09-15 19:28:39,445 INFO com.bank.atm.service.impl.CashWithDrawalService [http-nio-8080-exec-1] Fetch data from database by account number 12345
+2019-09-15 19:28:39,504 INFO com.bank.atm.client.console.AtmClient [main] Get respon from server : 0210F23A40018AE084040000000004000000051234501999900000000000009151928390000000728390915091500001100000000000110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000008485040890010010
+2019-09-15 19:28:39,517 INFO com.bank.atm.client.console.AtmClient [main] Total amount in bank : 48504089
+2019-09-15 19:28:56,687 INFO com.bank.atm.client.console.AtmClient [main] Doing transfer
+2019-09-15 19:28:57,693 INFO com.bank.atm.client.console.AtmClient [main] Transfer to in bank
+2019-09-15 19:29:14,609 INFO com.bank.atm.client.console.AtmClient [main] Transfer Inquiry
+2019-09-15 19:29:14,609 INFO com.bank.atm.client.console.AtmClient [main] Account number forwarding to: 08131
+2019-09-15 19:29:18,753 INFO com.bank.atm.client.console.AtmClient [main] Transfer amount: 2000
+2019-09-15 19:29:18,779 INFO com.bank.atm.client.console.AtmClient [main] Iso Message : 0200F23A400188A19004000000001600000A0512345390000000000002000091519291800000007291809150915000011000000000001100000000000000000000000000000000000000000000000000000000000000000000000001000000000000001212120050813104031401001000100040314
+2019-09-15 19:29:18,792 INFO com.bank.atm.service.impl.TransferService [http-nio-8080-exec-3] Fetch data from database by account number 12345
+2019-09-15 19:29:18,800 WARN com.bank.atm.service.impl.TransferService [http-nio-8080-exec-3] Account Number does not exit
+2019-09-15 19:29:18,809 INFO com.bank.atm.client.console.AtmClient [main] Get response Iso Message : 0210B23A40018AE18004000000001600000A3999990000000000000915192918000000072918091509150000110000000000011000000000000000000000007600000000000000000000000000000000000000000000000000000000000000000100000084850408904031401004Null00100040314
+2019-09-15 19:29:18,817 INFO com.bank.atm.client.console.AtmClient [main] Forwarding Account Number is wrong
+2019-09-15 19:29:46,629 INFO com.bank.atm.client.console.AtmClient [main] Doing transfer
+2019-09-15 19:29:47,240 INFO com.bank.atm.client.console.AtmClient [main] Transfer to in bank
+2019-09-15 19:29:49,282 INFO com.bank.atm.client.console.AtmClient [main] Transfer Inquiry
+2019-09-15 19:29:49,283 INFO com.bank.atm.client.console.AtmClient [main] Account number forwarding to: 000111
+2019-09-15 19:29:52,296 INFO com.bank.atm.client.console.AtmClient [main] Transfer amount: 2000
+2019-09-15 19:29:52,315 INFO com.bank.atm.client.console.AtmClient [main] Iso Message : 0200F23A400188A19004000000001600000A05123453900000000000020000915192952000000072952091509150000110000000000011000000000000000000000000000000000000000000000000000000000000000000000000010000000000000012121200600011104031401001000100040314
+2019-09-15 19:29:52,326 INFO com.bank.atm.service.impl.TransferService [http-nio-8080-exec-5] Fetch data from database by account number 12345
+2019-09-15 19:29:52,331 WARN com.bank.atm.service.impl.TransferService [http-nio-8080-exec-5] Account Number does not exit
+2019-09-15 19:29:52,339 INFO com.bank.atm.client.console.AtmClient [main] Get response Iso Message : 0210B23A40018AE18004000000001600000A3999990000000000000915192952000000072952091509150000110000000000011000000000000000000000007600000000000000000000000000000000000000000000000000000000000000000100000084850408904031401004Null00100040314
+2019-09-15 19:29:52,345 INFO com.bank.atm.client.console.AtmClient [main] Forwarding Account Number is wrong
+2019-09-15 19:30:15,939 INFO com.bank.atm.client.console.AtmClient [main] Doing transfer
+2019-09-15 19:30:17,261 INFO com.bank.atm.client.console.AtmClient [main] Transfer to in bank
+2019-09-15 19:30:20,314 INFO com.bank.atm.client.console.AtmClient [main] Transfer Inquiry
+2019-09-15 19:30:20,314 INFO com.bank.atm.client.console.AtmClient [main] Account number forwarding to: 000111
+2019-09-15 19:30:22,636 INFO com.bank.atm.client.console.AtmClient [main] Transfer amount: 200000
+2019-09-15 19:30:22,652 INFO com.bank.atm.client.console.AtmClient [main] Iso Message : 0200F23A400188A19004000000001600000A05123453900000000002000000915193022000000073022091509150000110000000000011000000000000000000000000000000000000000000000000000000000000000000000000010000000000000012121200600011104031401001000100040314
+2019-09-15 19:30:22,663 INFO com.bank.atm.service.impl.TransferService [http-nio-8080-exec-7] Fetch data from database by account number 12345
+2019-09-15 19:30:22,668 WARN com.bank.atm.service.impl.TransferService [http-nio-8080-exec-7] Account Number does not exit
+2019-09-15 19:30:22,673 INFO com.bank.atm.client.console.AtmClient [main] Get response Iso Message : 0210B23A40018AE18004000000001600000A3999990000000000000915193022000000073022091509150000110000000000011000000000000000000000007600000000000000000000000000000000000000000000000000000000000000000100000084850408904031401004Null00100040314
+2019-09-15 19:30:22,679 INFO com.bank.atm.client.console.AtmClient [main] Forwarding Account Number is wrong
+2019-09-15 19:30:33,314 INFO com.bank.atm.client.console.AtmClient [main] Doing transfer
+2019-09-15 19:30:34,043 INFO com.bank.atm.client.console.AtmClient [main] Transfer into another bank
+2019-09-15 19:30:41,901 INFO com.bank.atm.client.console.AtmClient [main] Transfer amount : 2000
+2019-09-15 19:30:41,916 INFO com.bank.atm.client.console.AtmClient [main] Iso Message : 0200F23A400188A19004000000001600000A0512345390000000000002000091519304100000007304109150915000011000000000001100000000000000000000000000000000000000000000000000000000000000000000000001000000000000001212120061112220403140100100010003003
+2019-09-15 19:30:42,519 INFO com.bank.atm.client.console.AtmClient [main] Get response Iso Message: 0210B23A40018AE18004000000001600000A390000000000008500091519304200000007304209150915000011000000000001100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000004850004031401006Buhama001000200
+2019-09-15 19:30:42,524 INFO com.bank.atm.client.console.AtmClient [main] Send balance to: Buhama
+2019-09-15 19:30:45,924 INFO com.bank.atm.client.console.AtmClient [main] Transfer Successfully
+2019-09-15 19:30:57,302 INFO com.bank.atm.client.console.AtmClient [main] Doing transfer
+2019-09-15 19:30:58,006 INFO com.bank.atm.client.console.AtmClient [main] Transfer into another bank
+2019-09-15 19:31:06,887 INFO com.bank.atm.client.console.AtmClient [main] Transfer amount : 4000
+2019-09-15 19:31:06,896 INFO com.bank.atm.client.console.AtmClient [main] Iso Message : 0200F23A400188A19004000000001600000A051234539000000000000400009151931060000000731060915091500001100000000000110000000000000000000000000000000000000000000000000000000000000000000000000100000000000000121212005121310403140100100010003003
+2019-09-15 19:31:06,960 INFO com.bank.atm.client.console.AtmClient [main] Get response Iso Message: 0210B23A40018AE18004000000001600000A3900000000000105000915193106000000073106091509150000110000000000011000000000000000000000007600000000000000000000000000000000000000000000000000000000000000000100000051050004031401004Null001000276
+2019-09-15 19:31:06,964 INFO com.bank.atm.client.console.AtmClient [main] Forwarding Account Number is wrong
+2019-09-15 19:31:15,401 INFO com.bank.atm.client.console.AtmClient [main] Doing Purchasing
+2019-09-15 19:31:20,312 INFO com.bank.atm.client.console.AtmClient [main] Phone Number: 08139333
+2019-09-15 19:31:23,299 INFO com.bank.atm.client.console.AtmClient [main] Nominal: 10000
+2019-09-15 19:31:23,322 INFO com.bank.atm.service.impl.PurchaseService [http-nio-8080-exec-4] Fetch data from database by account number 12345
+2019-09-15 19:31:23,324 INFO com.bank.atm.service.impl.PurchaseService [http-nio-8080-exec-4] Fetch data from database by account number 12345
+2019-09-15 19:31:23,325 INFO com.bank.atm.service.impl.PurchaseService [http-nio-8080-exec-4] Return true
+2019-09-15 19:31:29,828 INFO com.bank.atm.service.impl.PurchaseService [http-nio-8080-exec-5] Fetch data from database by account number 12345
+2019-09-15 19:31:29,831 INFO com.bank.atm.service.impl.PurchaseService [http-nio-8080-exec-5] Save data successfully
+2019-09-15 19:31:29,843 INFO com.bank.atm.client.console.AtmClient [main] Purchasing Successfully
+2019-09-15 19:31:39,528 INFO com.bank.atm.client.console.AtmClient [main] Doing Check Balance
+2019-09-15 19:31:39,553 INFO com.bank.atm.service.impl.BalanceService [http-nio-8080-exec-7] Fetch data from database by account number
+2019-09-15 19:31:39,554 INFO com.bank.atm.service.impl.BalanceService [http-nio-8080-exec-7] Data fetch successfully
+2019-09-15 19:31:39,561 INFO com.bank.atm.client.console.AtmClient [main] Insufficient balance: 48485589
+2019-09-15 19:31:51,675 INFO com.bank.atm.client.console.AtmClient [main] Payment
+2019-09-15 19:32:00,329 INFO com.bank.atm.client.console.AtmClient [main] DANA Virtual Account: 08131
+2019-09-15 19:32:03,728 INFO com.bank.atm.client.console.AtmClient [main] Nominal: 30000
+2019-09-15 19:32:03,739 INFO com.bank.atm.client.console.AtmClient [main] Iso Message: 0200F23A400188E09004000000000400000006121212380000000000030000091519320300000007320309150915000011000000000000589508000000000000000000000000000000000000000000000000000000000000000000000000000000000000000012121200508131010
+2019-09-15 19:32:03,752 INFO com.bank.atm.service.impl.PaymentService [http-nio-8080-exec-8] Fetch data from database by account number 121212
+2019-09-15 19:32:03,758 INFO com.bank.atm.service.impl.PaymentService [http-nio-8080-exec-8] Fetch data from database by forwarding account number 08131
+2019-09-15 19:32:03,758 WARN com.bank.atm.service.impl.PaymentService [http-nio-8080-exec-8] Data is empty
+2019-09-15 19:32:03,763 INFO com.bank.atm.client.console.AtmClient [main] Get Response Iso Message: 0210B23A40018AE08004000000000400000038999900000000000009151932030000000732030915091500001100000000000110000000000000000000000005000000000000000000000000000000000000000000000000000000000000000000001004Null
+2019-09-15 19:32:03,766 WARN com.bank.atm.client.console.AtmClient [main] Failed authentication
+2019-09-15 19:32:12,664 INFO com.bank.atm.client.console.AtmClient [main] Payment
+2019-09-15 19:32:14,997 INFO com.bank.atm.client.console.AtmClient [main] DANA Virtual Account: 08131
+2019-09-15 19:32:20,204 INFO com.bank.atm.client.console.AtmClient [main] Nominal: 20000
+2019-09-15 19:32:20,212 INFO com.bank.atm.client.console.AtmClient [main] Iso Message: 0200F23A400188E0900400000000040000000512345380000000000020000091519322000000007322009150915000011000000000000589508000000000000000000000000000000000000000000000000000000000000000000000000000000000000000012121200508131010
+2019-09-15 19:32:20,223 INFO com.bank.atm.service.impl.PaymentService [http-nio-8080-exec-10] Fetch data from database by account number 12345
+2019-09-15 19:32:20,225 INFO com.bank.atm.service.impl.PaymentService [http-nio-8080-exec-10] Fetch data from database by forwarding account number 08131
+2019-09-15 19:32:20,234 INFO com.bank.atm.client.console.AtmClient [main] Get Response Iso Message: 0210B23A40018AE080040000000004000000389999000000000000091519322000000007322009150915000011000000000001100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000084848558912Budi Santoso
+2019-09-15 19:32:23,277 INFO com.bank.atm.client.console.AtmClient [main] Payment Successfully
+2019-09-15 19:32:38,377 INFO com.bank.atm.client.console.AtmClient [main] Payment
+2019-09-15 19:32:40,787 INFO com.bank.atm.client.console.AtmClient [main] DANA Virtual Account: 35435423
+2019-09-15 19:32:41,268 INFO com.bank.atm.client.console.AtmClient [main] Nominal: 1
+2019-09-15 19:32:41,276 INFO com.bank.atm.client.console.AtmClient [main] Iso Message: 0200F23A400188E0900400000000040000000512345380000000000000001091519324100000007324109150915000011000000000000589508000000000000000000000000000000000000000000000000000000000000000000000000000000000000000012121200835435423010
+2019-09-15 19:32:41,288 INFO com.bank.atm.service.impl.PaymentService [http-nio-8080-exec-3] Fetch data from database by account number 12345
+2019-09-15 19:32:41,289 INFO com.bank.atm.service.impl.PaymentService [http-nio-8080-exec-3] Fetch data from database by forwarding account number 35435423
+2019-09-15 19:32:41,292 WARN com.bank.atm.service.impl.PaymentService [http-nio-8080-exec-3] Virtual account does not exist
+2019-09-15 19:32:41,296 INFO com.bank.atm.client.console.AtmClient [main] Get Response Iso Message: 0210B23A40018AE080040000000004000000389999000000000000091519324100000007324109150915000011000000000001100000000000000000000000760000000000000000000000000000000000000000000000000000000000000000000084846558904Null
+2019-09-15 19:32:41,299 INFO com.bank.atm.client.console.AtmClient [main] Forwarding Account Number is wrong
+2019-09-15 19:56:26,327 INFO com.bank.atm.AtmApplication [restartedMain] Starting AtmApplication on Amsal with PID 4701 (/Users/amsaljayadisihombing/Documents/Spring/atm/target/classes started by amsaljayadisihombing in /Users/amsaljayadisihombing/Documents/Spring/atm)
+2019-09-15 19:56:26,328 DEBUG com.bank.atm.AtmApplication [restartedMain] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-15 19:56:26,328 INFO com.bank.atm.AtmApplication [restartedMain] The following profiles are active: prod
+2019-09-15 19:56:29,375 INFO com.bank.atm.AtmApplication [restartedMain] Started AtmApplication in 3.287 seconds (JVM running for 34.009)
+2019-09-15 20:01:26,551 INFO com.bank.atm.AtmApplication [restartedMain] Starting AtmApplication on Amsal with PID 4707 (/Users/amsaljayadisihombing/Documents/Spring/atm/target/classes started by amsaljayadisihombing in /Users/amsaljayadisihombing/Documents/Spring/atm)
+2019-09-15 20:01:26,552 DEBUG com.bank.atm.AtmApplication [restartedMain] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-15 20:01:26,553 INFO com.bank.atm.AtmApplication [restartedMain] The following profiles are active: prod
+2019-09-15 20:01:31,006 INFO com.bank.atm.AtmApplication [restartedMain] Started AtmApplication in 4.671 seconds (JVM running for 35.844)
+2019-09-15 20:02:07,532 INFO com.bank.atm.AtmApplication [restartedMain] Starting AtmApplication on Amsal with PID 4711 (/Users/amsaljayadisihombing/Documents/Spring/atm/target/classes started by amsaljayadisihombing in /Users/amsaljayadisihombing/Documents/Spring/atm)
+2019-09-15 20:02:07,534 DEBUG com.bank.atm.AtmApplication [restartedMain] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-15 20:02:07,534 INFO com.bank.atm.AtmApplication [restartedMain] The following profiles are active: prod
+2019-09-15 20:02:10,025 INFO com.bank.atm.AtmApplication [restartedMain] Started AtmApplication in 2.713 seconds (JVM running for 33.36)
+2019-09-15 20:02:18,763 INFO com.bank.atm.client.console.AtmClient [main] Application is running
+2019-09-15 20:02:18,774 INFO com.bank.atm.client.console.AtmClient [main] Account Number : 12345
+2019-09-15 20:02:18,775 INFO com.bank.atm.client.console.AtmClient [main] Pin Number : 121212
+2019-09-15 20:02:20,812 INFO com.bank.atm.client.console.AtmClient [main] Doing transfer
+2019-09-15 20:02:21,799 INFO com.bank.atm.client.console.AtmClient [main] Transfer to in bank
+2019-09-15 20:02:37,776 INFO com.bank.atm.client.console.AtmClient [main] Transfer Inquiry
+2019-09-15 20:02:37,777 INFO com.bank.atm.client.console.AtmClient [main] Account number forwarding to: 1101
+2019-09-15 20:02:40,216 INFO com.bank.atm.client.console.AtmClient [main] Transfer amount: 2000
+2019-09-15 20:02:40,290 INFO com.bank.atm.client.console.AtmClient [main] Iso Message : 0200F23A400188A19004000000001600000A051234539000000000000200009152002400000000802400915091500001100000000000110000000000000000000000000000000000000000000000000000000000000000000000000100000000000000121212004110104031401001000100040314
+2019-09-15 20:02:40,772 INFO com.bank.atm.service.impl.TransferService [http-nio-8080-exec-1] Fetch data from database by account number 12345
+2019-09-15 20:02:40,807 INFO com.bank.atm.client.console.AtmClient [main] Get response Iso Message : 0210B23A40018AE18004000000001600000A3999990000000000000915200240000000080240091509150000110000000000011000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000084846558904031401012Budi Santoso00100040314
+2019-09-15 20:02:40,820 INFO com.bank.atm.client.console.AtmClient [main] Send balance to: Budi Santoso
+2019-09-15 20:03:07,850 INFO com.bank.atm.service.impl.TransferService [http-nio-8080-exec-3] Save data
+2019-09-15 20:03:07,864 ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] [http-nio-8080-exec-3] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+java.lang.NullPointerException: null
+	at com.bank.atm.service.impl.TransferService.addBalanceForwarding(TransferService.java:136)
+	at com.bank.atm.service.impl.TransferService.transfer(TransferService.java:72)
+	at com.bank.atm.controller.TransferController.transfer(TransferController.java:45)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+2019-09-15 20:03:07,913 INFO com.bank.atm.client.console.AtmClient [main] Transfer Successfully
+2019-09-15 20:12:31,139 INFO com.bank.atm.AtmApplication [restartedMain] Starting AtmApplication on Amsal with PID 5093 (/Users/amsaljayadisihombing/Documents/Spring/atm/target/classes started by amsaljayadisihombing in /Users/amsaljayadisihombing/Documents/Spring/atm)
+2019-09-15 20:12:31,142 DEBUG com.bank.atm.AtmApplication [restartedMain] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-15 20:12:31,142 INFO com.bank.atm.AtmApplication [restartedMain] The following profiles are active: prod
+2019-09-15 20:12:34,552 INFO com.bank.atm.AtmApplication [restartedMain] Started AtmApplication in 3.855 seconds (JVM running for 10.059)
+2019-09-15 20:12:36,202 INFO com.bank.atm.client.console.AtmClient [main] Application is running
+2019-09-15 20:12:36,212 INFO com.bank.atm.client.console.AtmClient [main] Account Number : 12345
+2019-09-15 20:12:36,213 INFO com.bank.atm.client.console.AtmClient [main] Pin Number : 121212
+2019-09-15 20:12:40,162 INFO com.bank.atm.client.console.AtmClient [main] Doing transfer
+2019-09-15 20:12:40,832 INFO com.bank.atm.client.console.AtmClient [main] Transfer to in bank
+2019-09-15 20:12:44,209 INFO com.bank.atm.client.console.AtmClient [main] Transfer Inquiry
+2019-09-15 20:12:44,209 INFO com.bank.atm.client.console.AtmClient [main] Account number forwarding to: 4124
+2019-09-15 20:12:45,617 INFO com.bank.atm.client.console.AtmClient [main] Transfer amount: 2000
+2019-09-15 20:12:45,693 INFO com.bank.atm.client.console.AtmClient [main] Iso Message : 0200F23A400188A19004000000001600000A051234539000000000000200009152012450000000812450915091500001100000000000110000000000000000000000000000000000000000000000000000000000000000000000000100000000000000121212004412404031401001000100040314
+2019-09-15 20:12:46,146 INFO com.bank.atm.service.impl.TransferService [http-nio-8080-exec-1] Fetch data from database by account number 12345
+2019-09-15 20:12:46,154 WARN com.bank.atm.service.impl.TransferService [http-nio-8080-exec-1] Account Number does not exit
+2019-09-15 20:12:46,181 INFO com.bank.atm.client.console.AtmClient [main] Get response Iso Message : 0210B23A40018AE18004000000001600000A3999990000000000000915201246000000081246091509150000110000000000011000000000000000000000007600000000000000000000000000000000000000000000000000000000000000000100000084846358904031401004Null00100040314
+2019-09-15 20:12:46,196 INFO com.bank.atm.client.console.AtmClient [main] Forwarding Account Number is wrong
+2019-09-15 20:12:59,767 INFO com.bank.atm.client.console.AtmClient [main] Doing transfer
+2019-09-15 20:13:02,388 INFO com.bank.atm.client.console.AtmClient [main] Transfer to in bank
+2019-09-15 20:13:21,699 INFO com.bank.atm.client.console.AtmClient [main] Transfer Inquiry
+2019-09-15 20:13:21,701 INFO com.bank.atm.client.console.AtmClient [main] Account number forwarding to: 1101
+2019-09-15 20:13:24,086 INFO com.bank.atm.client.console.AtmClient [main] Transfer amount: 3000
+2019-09-15 20:13:24,109 INFO com.bank.atm.client.console.AtmClient [main] Iso Message : 0200F23A400188A19004000000001600000A051234539000000000000300009152013240000000813240915091500001100000000000110000000000000000000000000000000000000000000000000000000000000000000000000100000000000000121212004110104031401001000100040314
+2019-09-15 20:13:24,121 INFO com.bank.atm.service.impl.TransferService [http-nio-8080-exec-3] Fetch data from database by account number 12345
+2019-09-15 20:13:24,135 INFO com.bank.atm.client.console.AtmClient [main] Get response Iso Message : 0210B23A40018AE18004000000001600000A3999990000000000000915201324000000081324091509150000110000000000011000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000084846358904031401012Budi Santoso00100040314
+2019-09-15 20:13:24,143 INFO com.bank.atm.client.console.AtmClient [main] Send balance to: Budi Santoso
+2019-09-15 20:13:27,791 INFO com.bank.atm.service.impl.TransferService [http-nio-8080-exec-5] Save data
+2019-09-15 20:13:27,811 INFO com.bank.atm.client.console.AtmClient [main] Transfer Successfully
